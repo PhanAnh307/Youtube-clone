@@ -1,0 +1,108 @@
+.sidebar {
+    background: #fff;
+    width: 220px;
+    height: 100vh;
+    position:fixed;
+    top: 0;
+    padding-top : 80px;
+}
+.sortcut-links img{
+    width: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.side-link {
+    display: flex;
+    align-items: center;
+    padding: 12px 10px 12px 1px;
+    width: fit-content;
+    flex-wrap: wrap;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-right: 5px;
+    width: 90%;
+}
+.subscribed-list .side-link img {
+    border-radius: 50%;
+}
+.subscribed-list .side-link {
+    padding-left: 20px;
+}
+.sidebar hr {
+    border: 0;
+    height: 1px;
+    background: #dddddd;
+    width:95%;
+    margin-top: 5px;
+    margin-bottom: 18px;
+    margin-left: 5px;
+}
+.subscribed-list h3 {
+    font-size: 18px;
+    margin : 10px 10px;
+    color: #5a5a5a;
+    
+  
+}
+.subscribed-list img {
+    width: 25px;
+    margin-right: 20px;
+    
+}
+/*Small sidebar css*/
+.small-sidebar {
+    width: 77px; 
+    padding-right: 10px;
+
+}
+.small-sidebar p{
+    display: none;
+}
+.small-sidebar h3 {
+    display:none;
+}
+.small-sidebar hr {
+    width: 90%;
+}
+.small-sidebar .subscribed-list {
+    display: none;
+}
+/*Discover*/
+.discover h3{
+    font-size : 18px;
+    margin: 10px 10px;
+    color: #5a5a5a;
+}
+.discover img {
+    width: 25px;
+    margin-left: -3px;
+    margin-right: 22px;
+
+}
+.discover .side-link  {
+    padding-left: 20px;
+}
+/*sidebar active and hover effect*/
+.side-link:hover   {
+    background: rgb(230, 230, 230);
+    border-radius: 10px;
+
+}
+.side-link.active  {
+    background: rgb(230, 230, 230);
+    border-radius: 10px;
+
+}
+.side-link.active:hover {
+    background: rgb(221, 218, 218);
+    border-radius: 10px;
+}
+
+@media (max-width:900px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+

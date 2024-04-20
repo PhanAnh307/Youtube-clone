@@ -1,0 +1,32 @@
+.play-container {
+    background: #f9f9f9;
+    padding-left:5%;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    display: flex;
+
+    box-sizing: border-box;
+
+    flex-direction: row;
+    justify-content: center;
+}
+.child1 {
+    flex-basis: 70%;
+    padding-right: 28px;
+}
+.child2 {
+    flex-basis:20%;
+
+}
+@media (max-width: 900px) {
+    .play-container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .child1 {
+        flex-basis: 100%;
+    }
+    .child2 {
+        display: none;
+    }
+}

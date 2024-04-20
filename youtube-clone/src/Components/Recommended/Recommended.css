@@ -1,0 +1,22 @@
+.side-video-list {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+    text-overflow: hidden;
+}
+.side-video-list img {
+
+    width:190px;
+    border-radius : 10px;
+}
+.vid-info {
+    width: 50%;
+    margin-left: 5px;
+}
+.vid-info h4 {
+
+    font-family: 'Arial, Helvetica, Tahoma, Open Sans, Roboto';
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
